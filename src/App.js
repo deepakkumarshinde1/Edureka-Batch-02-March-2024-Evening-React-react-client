@@ -10,7 +10,7 @@ function App() {
   let client = new ApolloClient({
     cache: new InMemoryCache(),
     link: new HttpLink({
-      uri: `http://localhost:3001/graphql`,
+      uri: `https://gql.uttirna.in/graphql`,
     }),
   });
   return (
